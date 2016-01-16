@@ -8,6 +8,7 @@ class FooterComponent extends React.Component {
   render() {
     return (
       <div className="footer-component">
+        <hr/>
         <div className="container">
           <span className="fine-print">&copy; connected</span>
         </div>

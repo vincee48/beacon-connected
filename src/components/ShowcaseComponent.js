@@ -8,11 +8,11 @@ class ShowcaseComponent extends React.Component {
   render() {
     return (
       <div className="showcase-component">
+        <div className="image"><img src={ this.props.image } /></div>
         <div className="headline">{ this.props.headline }</div>
         <div className="description">
           { this.props.children }
         </div>
-        <div className="image"><img src={ this.props.image } /></div>
       </div>
     );
   }

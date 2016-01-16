@@ -9,7 +9,7 @@ class SectionComponent extends React.Component {
     return (
       <section className="section-component">
         <div className="container">
-          <h2>{ this.props.header }</h2>
+          <h2 className="center">{ this.props.header }</h2>
           <hr />
           { this.props.children }
         </div>
