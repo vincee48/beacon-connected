@@ -1,0 +1,7 @@
+{
+  "generator-react-webpack": {
+    "appName": "beacon",
+    "style": "less",
+    "postcss": false
+  }
+}
