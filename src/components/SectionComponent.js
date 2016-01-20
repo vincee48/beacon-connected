@@ -22,7 +22,7 @@ SectionComponent.displayName = 'SectionComponent';
 
 // Uncomment properties you need
 SectionComponent.propTypes = {
-  header: React.PropTypes.string,
+  header: React.PropTypes.any,
   children: React.PropTypes.any
 };
 // SectionComponent.defaultProps = {};

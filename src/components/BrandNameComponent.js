@@ -2,7 +2,9 @@
 
 import React from 'react';
 
-require('styles//BrandName.less');
+import 'styles//BrandName.less';
+
+const brandName = 'butler';
 
 class BrandNameComponent extends React.Component {
   render() {
@@ -10,7 +12,7 @@ class BrandNameComponent extends React.Component {
 
     return (
       <span className="brandname-component" style={margin}>
-        connected
+        { brandName }
       </span>
     );
   }
