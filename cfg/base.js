@@ -3,7 +3,7 @@ let path = require('path');
 
 let port = 8000;
 let srcPath = path.join(__dirname, '/../src');
-let publicPath = '/assets/';
+let publicPath = 'assets/';
 
 // Additional npm or bower modules to include in builds
 // Add all foreign plugins you may need into this array
