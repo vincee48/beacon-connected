@@ -4,7 +4,7 @@ import React from 'react';
 
 import 'styles//BrandName.less';
 
-const brandName = 'butler';
+const brandName = 'connected';
 
 class BrandNameComponent extends React.Component {
   render() {
